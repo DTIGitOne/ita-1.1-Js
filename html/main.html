@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Main</title>
+   <link rel="stylesheet" href="../css/data.css">
+</head>
+<body>
+   <div class="root">
+      <div class="left" id="left">
+         <div class="userFillInBox">
+          <div class="userFillIn">
+            <div id="Text">Fill In Forum</div>
+            <input type="string" placeholder="Please type in your Name" id="NameFillIn">
+            <div class="NameError" id="NameError"></div>
+            <input type="string" placeholder="Please type in your Surname" id="SurnameFillIn">
+            <div class="surnameError" id="surnameError"></div>
+            <input type="string" placeholder="your e-mail" id="emailFillIn">
+            <div class="emailError" id="emailError"></div>
+            <div id="dateBox">
+               <label for="date1">Your birth year:</label>
+            <input type="date" id="date1">
+            </div>
+            <div class="dateError"></div>
+            <button id="sendButton" class="sendButton">Verify</button>
+            <div class="verifyError" id="verifyError"></div>
+            <div id="linkBox">
+               <div id="linkText">Already have an ID?</div>
+               <a href="../html/second.html" id="linkText2">Click here</a>
+            </div>
+          </div>
+         </div>
+      </div>
+      <div class="right" id="right">
+         <table id="tableDate" class="tableDate2">
+            <thead class="tableDate" id="thead1">
+             <th class="tableDate">Name:</th>
+             <th class="tableDate">Surname:</th>
+             <th class="tableDate">Email:</th>
+             <th class="tableDate">Birthyear:</th>
+            </thead>
+            <tbody class="tableDate" id="tableDateBody">
+              
+            </tbody>
+         </table>
+      </div>
+   </div>
+   <script defer src="../js/data.js"></script>
+</body>
+</html>
